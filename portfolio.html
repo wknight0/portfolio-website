@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>William Knight's Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Martian+Mono:wght@200;400;700&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <intro class="blue" id="intro">
+        <header class="blue" id="intro">
+            <a href="#intro">
+                <img src="./logo.png" id="logo">
+            </a>
+            <nav>
+                <ol>
+                    <a href="#about-nav" class="smoothScroll"><li>About</li></a>
+                    <a href="#experience-nav"><li>Experience</li></a>
+                    <a href="#contact-nav"><li>Contact</li></a>
+                </ol>
+            </nav>
+            <a href="https://www.youtube.com/watch?v=ixHjaSP6tYo&ab_channel=xQc"><resume-button id="resume">Résumé</resume-button></a>
+        </header>
+
+        <animated-blob id="animated-blob">
+            <svg id="visual" viewBox="0 0 960 400" width="560" height="400" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+    
+        <g transform="translate(487.4274937769027 205.69607461609178)">
+            <path id="blob1"
+                d="M79.6 -72.6C112.1 -47.1 153.6 -23.6 159.2 5.7C164.9 34.9 134.8 69.8 102.3 88.1C69.8 106.4 34.9 108.2 -5.5 113.8C-46 119.3 -91.9 128.6 -125.3 110.3C-158.6 91.9 -179.3 46 -173.9 5.4C-168.5 -35.1 -136.9 -70.2 -103.6 -95.7C-70.2 -121.2 -35.1 -137.1 -5.8 -131.3C23.6 -125.6 47.1 -98.1 79.6 -72.6"
+                fill="#102d49">
+            </path>
+        </g>
+    
+        <g transform="translate(494.82626206397 195.2752953869857)">
+            <path id="blob2"
+                d="M65.1 -65.8C83.1 -47.1 95.6 -23.6 99.3 3.8C103.1 31.1 98.2 62.2 80.2 87.6C62.2 112.9 31.1 132.4 -0.4 132.8C-31.8 133.2 -63.6 114.3 -84.6 89C-105.6 63.6 -115.8 31.8 -123.5 -7.7C-131.1 -47.1 -136.3 -94.3 -115.3 -112.9C-94.3 -131.6 -47.1 -121.8 -11.8 -110C23.6 -98.2 47.1 -84.5 65.1 -65.8"
+                fill="#102d49"></path>
+            </g>
+         </svg>
+        </animated-blob>
+
+        <introductory-block>
+            <h2>Hi, my name is</h2>
+            <h1 id="name">William Knight</h1>
+            <h3>scroll to learn more about me!</h3>
+        </introductory-block>
+
+        <div class="down-arrow"></div>
+        
+    </intro>
+
+    <div class="spacer layer1" id="about-nav"></div>
+
+    <section class="about">
+        <div class="about-section text">
+            <h2 class="hidden">About Me</h1>
+            <p class="hidden">Hello! My name is William and I enjoy creating things on the internet and watching them come to life.</p>
+            <p class="hidden">I'm currently studying at Auckland University of Technology towards a Bachelor's Degree in Computer and Information Sciences, majoring in Software Development.</p>
+            <p class="hidden">My favourite programming language is JavaScript though I have proficiency in other programming languages too.<br></p>
+            <h4 class="languages hidden">
+                Here are a few languages I have been working with recently...
+            </h4>
+            <ul>
+                <li class="language hidden">JavaScript (ES6+)</li>
+                <li class="language hidden">HTML</li>
+                <li class="language hidden">CSS</li>
+                <li class="language hidden">C</li>
+                <li class="language hidden">Python</li>
+                <li class="language hidden">SQL</li>
+                <li class="language hidden">Bash</li>
+            </ul>
+        </div>
+        <div class="about-section">
+            <img src="./photo.png">
+        </div>
+    </section>
+
+    <div class="spacer layer2" id="experience-nav"></div>
+
+    <section class="dark" id="experience">
+        <h2 class="hidden">Some Projects of Mine</h2>
+        <div class="tabs">
+            <input type="radio" class="tabs-radio" name="tabs-example" id="tab1" checked>
+            <label for="tab1" class="tabs-label">Tab #1</label>
+            <div class="tabs-content">
+                sample text
+                <img src="logo.png">
+            </div>
+            
+            <input type="radio" class="tabs-radio" name="tabs-example" id="tab2">
+            <label for="tab2" class="tabs-label">Tab #2</label>
+            <div class="tabs-content">
+                sample text
+                <img src="logo.png">
+            </div>
+
+            <input type="radio" class="tabs-radio" name="tabs-example" id="tab3">
+            <label for="tab3" class="tabs-label">Tab #3</label>
+            <div class="tabs-content">
+                sample text
+                <img src="logo.png">
+            </div>
+
+            <input type="radio" class="tabs-radio" name="tabs-example" id="tab4">
+            <label for="tab4" class="tabs-label">Tab #4</label>
+            <div class="tabs-content">
+                sample text
+                <img src="logo.png">
+            </div>
+
+            <input type="radio" class="tabs-radio" name="tabs-example" id="tab5">
+            <label for="tab5" class="tabs-label">Tab #5</label>
+            <div class="tabs-content">
+                sample text
+                <img src="logo.png">
+            </div> 
+          </div>
+          <h3>Other Noteworthy Projects</h3>
+          <a href="https://github.com/wknight0?tab=repositories"><h4>view the archive</h4></a>
+    </section>
+
+    <div class="spacer layer3" id="contact-nav"></div>
+
+    <section class="blue" id="contact">
+        <h2 class="hidden">My Contact Information</h2>
+        <p class="hidden">
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+            paragraph 3 text paragraph 3 text paragraph 3 text
+        </p>
+    </section>
+
+    <script src="./portfolio.js"></script>
+</body>
+
+</html>
